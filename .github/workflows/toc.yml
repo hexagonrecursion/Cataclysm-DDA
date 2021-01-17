@@ -1,8 +1,4 @@
-on:
-  push:
-    branches:
-    - master
-    - toc-bot
+on: push
 name: TOC Generator
 jobs:
   generateTOC:
