@@ -12,4 +12,4 @@ jobs:
         with:
           TARGET_PATHS: "*.md"
           COMMIT_NAME: "TOC Generator"
-          COMMIT_EMAIL: ""
+          COMMIT_EMAIL: "noreply@example.com"
