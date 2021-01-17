@@ -11,3 +11,5 @@ jobs:
       - uses: technote-space/toc-generator@v2.6.1
         with:
           TARGET_PATHS: "*.md"
+          COMMIT_NAME: "TOC Generator"
+          COMMIT_EMAIL: "toc.generator@noreply.github.com"
