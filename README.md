@@ -3,8 +3,6 @@
 **Table of Contents**
 
 - [Foo](#foo)
-  - [Bar](#bar)
-    - [Baz](#baz)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
