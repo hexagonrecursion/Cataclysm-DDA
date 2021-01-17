@@ -1,4 +1,7 @@
-on: push
+on:
+  push:
+    branches:
+    - master
 name: TOC Generator
 jobs:
   generateTOC:
@@ -6,3 +9,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: technote-space/toc-generator@v2.6.1
+        with:
+          TARGET_PATHS: "*.md"
