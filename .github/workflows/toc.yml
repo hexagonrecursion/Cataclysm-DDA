@@ -2,6 +2,7 @@ on:
   push:
     branches:
     - master
+    - toc-bot
 name: TOC Generator
 jobs:
   generateTOC:
